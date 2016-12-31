@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 //使用自动配置，主动添加并解析bean，配置文件等信息
 @EnableAutoConfiguration
 
-public class Controller {
+public class Controller{
     //设置访问的url
     @RequestMapping("/")
     //表示返回JSON格式的结果，如果前面使用的是@RestController可以不用写
