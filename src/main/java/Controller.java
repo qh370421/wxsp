@@ -17,6 +17,7 @@ public class Controller{
     //表示返回JSON格式的结果，如果前面使用的是@RestController可以不用写
     //@ResponseBody
     ResponseEntity home() {
+
         ResponseEntity re = new ResponseEntity();
         re.setState(1);
         re.setPayload("Hello World秦虎");
